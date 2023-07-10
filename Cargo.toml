@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
-sfml = "0.20.0"
+sfml = { git = 'https://github.com/jeremyletang/rust-sfml', branch = 'master' }
 
 [[bin]]
 name = "rust-snake"
